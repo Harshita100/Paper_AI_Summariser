@@ -69,7 +69,7 @@ if file is not None:
                 text += page_text + '\n'
 
 # Initialize Groq client
-client = Groq(api_key="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")
+client = Groq(api_key="your_groq_api_key_here")
 
 # Button to trigger summarization
 if st.button("Summarize"):
